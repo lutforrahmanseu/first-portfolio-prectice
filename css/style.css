@@ -1,0 +1,40 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.container{
+    display: flex;
+}
+.sky-blue{
+    color: #4284f5;
+}
+h1{
+    font-size: 50px;
+}
+
+.half-width{
+    width:50%;
+    margin: 20px;
+    padding: 15px;
+
+}
+.half-width img{
+    width: 80%;
+    padding: 50px;
+}
+.link-button{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image:linear-gradient(45deg ,#51706b,#3c736a,#026b59);
+    border-radius: 5px;
+    color: white;
+}
+.link-button:hover{
+    background-image:linear-gradient(45deg,#615f7d, #433f75,#130b80) ;
+}
+.header-section{
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
